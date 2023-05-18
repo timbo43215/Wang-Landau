@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABAB48FF2A1677ED003A881D /* Wang_LandauApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB48FE2A1677ED003A881D /* Wang_LandauApp.swift */; };
+		ABAB49012A1677ED003A881D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49002A1677ED003A881D /* ContentView.swift */; };
+		ABAB49032A1677EE003A881D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAB49022A1677EE003A881D /* Assets.xcassets */; };
+		ABAB49062A1677EE003A881D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAB49052A1677EE003A881D /* Preview Assets.xcassets */; };
+		ABAB49112A1677EE003A881D /* Wang_LandauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49102A1677EE003A881D /* Wang_LandauTests.swift */; };
+		ABAB491B2A1677EE003A881D /* Wang_LandauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB491A2A1677EE003A881D /* Wang_LandauUITests.swift */; };
+		ABAB491D2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB491C2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABAB490D2A1677EE003A881D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABAB48F32A1677ED003A881D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAB48FA2A1677ED003A881D;
+			remoteInfo = "Wang Landau";
+		};
+		ABAB49172A1677EE003A881D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABAB48F32A1677ED003A881D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAB48FA2A1677ED003A881D;
+			remoteInfo = "Wang Landau";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABAB48FB2A1677ED003A881D /* Wang Landau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wang Landau.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAB48FE2A1677ED003A881D /* Wang_LandauApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wang_LandauApp.swift; sourceTree = "<group>"; };
+		ABAB49002A1677ED003A881D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABAB49022A1677EE003A881D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABAB49052A1677EE003A881D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABAB49072A1677EE003A881D /* Wang_Landau.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wang_Landau.entitlements; sourceTree = "<group>"; };
+		ABAB490C2A1677EE003A881D /* Wang LandauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wang LandauTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAB49102A1677EE003A881D /* Wang_LandauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wang_LandauTests.swift; sourceTree = "<group>"; };
+		ABAB49162A1677EE003A881D /* Wang LandauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wang LandauUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAB491A2A1677EE003A881D /* Wang_LandauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wang_LandauUITests.swift; sourceTree = "<group>"; };
+		ABAB491C2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wang_LandauUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABAB48F82A1677ED003A881D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAB49092A1677EE003A881D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAB49132A1677EE003A881D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAB48F22A1677ED003A881D = {
+			isa = PBXGroup;
+			children = (
+				ABAB48FD2A1677ED003A881D /* Wang Landau */,
+				ABAB490F2A1677EE003A881D /* Wang LandauTests */,
+				ABAB49192A1677EE003A881D /* Wang LandauUITests */,
+				ABAB48FC2A1677ED003A881D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABAB48FC2A1677ED003A881D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB48FB2A1677ED003A881D /* Wang Landau.app */,
+				ABAB490C2A1677EE003A881D /* Wang LandauTests.xctest */,
+				ABAB49162A1677EE003A881D /* Wang LandauUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABAB48FD2A1677ED003A881D /* Wang Landau */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB48FE2A1677ED003A881D /* Wang_LandauApp.swift */,
+				ABAB49002A1677ED003A881D /* ContentView.swift */,
+				ABAB49022A1677EE003A881D /* Assets.xcassets */,
+				ABAB49072A1677EE003A881D /* Wang_Landau.entitlements */,
+				ABAB49042A1677EE003A881D /* Preview Content */,
+			);
+			path = "Wang Landau";
+			sourceTree = "<group>";
+		};
+		ABAB49042A1677EE003A881D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB49052A1677EE003A881D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABAB490F2A1677EE003A881D /* Wang LandauTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB49102A1677EE003A881D /* Wang_LandauTests.swift */,
+			);
+			path = "Wang LandauTests";
+			sourceTree = "<group>";
+		};
+		ABAB49192A1677EE003A881D /* Wang LandauUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB491A2A1677EE003A881D /* Wang_LandauUITests.swift */,
+				ABAB491C2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift */,
+			);
+			path = "Wang LandauUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABAB48FA2A1677ED003A881D /* Wang Landau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAB49202A1677EE003A881D /* Build configuration list for PBXNativeTarget "Wang Landau" */;
+			buildPhases = (
+				ABAB48F72A1677ED003A881D /* Sources */,
+				ABAB48F82A1677ED003A881D /* Frameworks */,
+				ABAB48F92A1677ED003A881D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wang Landau";
+			productName = "Wang Landau";
+			productReference = ABAB48FB2A1677ED003A881D /* Wang Landau.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABAB490B2A1677EE003A881D /* Wang LandauTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAB49232A1677EE003A881D /* Build configuration list for PBXNativeTarget "Wang LandauTests" */;
+			buildPhases = (
+				ABAB49082A1677EE003A881D /* Sources */,
+				ABAB49092A1677EE003A881D /* Frameworks */,
+				ABAB490A2A1677EE003A881D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABAB490E2A1677EE003A881D /* PBXTargetDependency */,
+			);
+			name = "Wang LandauTests";
+			productName = "Wang LandauTests";
+			productReference = ABAB490C2A1677EE003A881D /* Wang LandauTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABAB49152A1677EE003A881D /* Wang LandauUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAB49262A1677EE003A881D /* Build configuration list for PBXNativeTarget "Wang LandauUITests" */;
+			buildPhases = (
+				ABAB49122A1677EE003A881D /* Sources */,
+				ABAB49132A1677EE003A881D /* Frameworks */,
+				ABAB49142A1677EE003A881D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABAB49182A1677EE003A881D /* PBXTargetDependency */,
+			);
+			name = "Wang LandauUITests";
+			productName = "Wang LandauUITests";
+			productReference = ABAB49162A1677EE003A881D /* Wang LandauUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABAB48F32A1677ED003A881D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABAB48FA2A1677ED003A881D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABAB490B2A1677EE003A881D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABAB48FA2A1677ED003A881D;
+					};
+					ABAB49152A1677EE003A881D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABAB48FA2A1677ED003A881D;
+					};
+				};
+			};
+			buildConfigurationList = ABAB48F62A1677ED003A881D /* Build configuration list for PBXProject "Wang Landau" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABAB48F22A1677ED003A881D;
+			productRefGroup = ABAB48FC2A1677ED003A881D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABAB48FA2A1677ED003A881D /* Wang Landau */,
+				ABAB490B2A1677EE003A881D /* Wang LandauTests */,
+				ABAB49152A1677EE003A881D /* Wang LandauUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABAB48F92A1677ED003A881D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAB49062A1677EE003A881D /* Preview Assets.xcassets in Resources */,
+				ABAB49032A1677EE003A881D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAB490A2A1677EE003A881D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAB49142A1677EE003A881D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABAB48F72A1677ED003A881D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAB49012A1677ED003A881D /* ContentView.swift in Sources */,
+				ABAB48FF2A1677ED003A881D /* Wang_LandauApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAB49082A1677EE003A881D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAB49112A1677EE003A881D /* Wang_LandauTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAB49122A1677EE003A881D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAB491D2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift in Sources */,
+				ABAB491B2A1677EE003A881D /* Wang_LandauUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABAB490E2A1677EE003A881D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABAB48FA2A1677ED003A881D /* Wang Landau */;
+			targetProxy = ABAB490D2A1677EE003A881D /* PBXContainerItemProxy */;
+		};
+		ABAB49182A1677EE003A881D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABAB48FA2A1677ED003A881D /* Wang Landau */;
+			targetProxy = ABAB49172A1677EE003A881D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABAB491E2A1677EE003A881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABAB491F2A1677EE003A881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABAB49212A1677EE003A881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Wang Landau/Wang_Landau.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wang Landau/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Wang-Landau";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABAB49222A1677EE003A881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Wang Landau/Wang_Landau.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wang Landau/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Wang-Landau";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABAB49242A1677EE003A881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Wang-LandauTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wang Landau.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wang Landau";
+			};
+			name = Debug;
+		};
+		ABAB49252A1677EE003A881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Wang-LandauTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wang Landau.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wang Landau";
+			};
+			name = Release;
+		};
+		ABAB49272A1677EE003A881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Wang-LandauUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Wang Landau";
+			};
+			name = Debug;
+		};
+		ABAB49282A1677EE003A881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Wang-LandauUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Wang Landau";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABAB48F62A1677ED003A881D /* Build configuration list for PBXProject "Wang Landau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAB491E2A1677EE003A881D /* Debug */,
+				ABAB491F2A1677EE003A881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAB49202A1677EE003A881D /* Build configuration list for PBXNativeTarget "Wang Landau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAB49212A1677EE003A881D /* Debug */,
+				ABAB49222A1677EE003A881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAB49232A1677EE003A881D /* Build configuration list for PBXNativeTarget "Wang LandauTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAB49242A1677EE003A881D /* Debug */,
+				ABAB49252A1677EE003A881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAB49262A1677EE003A881D /* Build configuration list for PBXNativeTarget "Wang LandauUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAB49272A1677EE003A881D /* Debug */,
+				ABAB49282A1677EE003A881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABAB48F32A1677ED003A881D /* Project object */;
+}
