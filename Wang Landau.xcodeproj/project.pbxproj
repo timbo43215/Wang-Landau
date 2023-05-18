@@ -14,6 +14,24 @@
 		ABAB49112A1677EE003A881D /* Wang_LandauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49102A1677EE003A881D /* Wang_LandauTests.swift */; };
 		ABAB491B2A1677EE003A881D /* Wang_LandauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB491A2A1677EE003A881D /* Wang_LandauUITests.swift */; };
 		ABAB491D2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB491C2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift */; };
+		ABAB492A2A1678C5003A881D /* Plot Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49292A1678C5003A881D /* Plot Data.swift */; };
+		ABAB492B2A1678C5003A881D /* Plot Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49292A1678C5003A881D /* Plot Data.swift */; };
+		ABAB492C2A1678C5003A881D /* Plot Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49292A1678C5003A881D /* Plot Data.swift */; };
+		ABAB492E2A1678DE003A881D /* Energy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB492D2A1678DE003A881D /* Energy.swift */; };
+		ABAB492F2A1678DE003A881D /* Energy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB492D2A1678DE003A881D /* Energy.swift */; };
+		ABAB49302A1678DE003A881D /* Energy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB492D2A1678DE003A881D /* Energy.swift */; };
+		ABAB49322A167904003A881D /* Spins.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49312A167904003A881D /* Spins.swift */; };
+		ABAB49332A167904003A881D /* Spins.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49312A167904003A881D /* Spins.swift */; };
+		ABAB49342A167904003A881D /* Spins.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49312A167904003A881D /* Spins.swift */; };
+		ABAB49362A167919003A881D /* Density of States.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49352A167919003A881D /* Density of States.swift */; };
+		ABAB49372A167919003A881D /* Density of States.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49352A167919003A881D /* Density of States.swift */; };
+		ABAB49382A167919003A881D /* Density of States.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49352A167919003A881D /* Density of States.swift */; };
+		ABAB493A2A167930003A881D /* Spin Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49392A167930003A881D /* Spin Struct.swift */; };
+		ABAB493B2A167930003A881D /* Spin Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49392A167930003A881D /* Spin Struct.swift */; };
+		ABAB493C2A167930003A881D /* Spin Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB49392A167930003A881D /* Spin Struct.swift */; };
+		ABAB493E2A16794A003A881D /* twoDMagnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB493D2A16794A003A881D /* twoDMagnet.swift */; };
+		ABAB493F2A16794A003A881D /* twoDMagnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB493D2A16794A003A881D /* twoDMagnet.swift */; };
+		ABAB49402A16794A003A881D /* twoDMagnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB493D2A16794A003A881D /* twoDMagnet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +63,12 @@
 		ABAB49162A1677EE003A881D /* Wang LandauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wang LandauUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAB491A2A1677EE003A881D /* Wang_LandauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wang_LandauUITests.swift; sourceTree = "<group>"; };
 		ABAB491C2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wang_LandauUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABAB49292A1678C5003A881D /* Plot Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plot Data.swift"; sourceTree = "<group>"; };
+		ABAB492D2A1678DE003A881D /* Energy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy.swift; sourceTree = "<group>"; };
+		ABAB49312A167904003A881D /* Spins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spins.swift; sourceTree = "<group>"; };
+		ABAB49352A167919003A881D /* Density of States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Density of States.swift"; sourceTree = "<group>"; };
+		ABAB49392A167930003A881D /* Spin Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spin Struct.swift"; sourceTree = "<group>"; };
+		ABAB493D2A16794A003A881D /* twoDMagnet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoDMagnet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,12 @@
 			children = (
 				ABAB48FE2A1677ED003A881D /* Wang_LandauApp.swift */,
 				ABAB49002A1677ED003A881D /* ContentView.swift */,
+				ABAB49292A1678C5003A881D /* Plot Data.swift */,
+				ABAB492D2A1678DE003A881D /* Energy.swift */,
+				ABAB49312A167904003A881D /* Spins.swift */,
+				ABAB49352A167919003A881D /* Density of States.swift */,
+				ABAB49392A167930003A881D /* Spin Struct.swift */,
+				ABAB493D2A16794A003A881D /* twoDMagnet.swift */,
 				ABAB49022A1677EE003A881D /* Assets.xcassets */,
 				ABAB49072A1677EE003A881D /* Wang_Landau.entitlements */,
 				ABAB49042A1677EE003A881D /* Preview Content */,
@@ -260,6 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB49012A1677ED003A881D /* ContentView.swift in Sources */,
+				ABAB49322A167904003A881D /* Spins.swift in Sources */,
+				ABAB493A2A167930003A881D /* Spin Struct.swift in Sources */,
+				ABAB492E2A1678DE003A881D /* Energy.swift in Sources */,
+				ABAB49362A167919003A881D /* Density of States.swift in Sources */,
+				ABAB493E2A16794A003A881D /* twoDMagnet.swift in Sources */,
+				ABAB492A2A1678C5003A881D /* Plot Data.swift in Sources */,
 				ABAB48FF2A1677ED003A881D /* Wang_LandauApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB49112A1677EE003A881D /* Wang_LandauTests.swift in Sources */,
+				ABAB493B2A167930003A881D /* Spin Struct.swift in Sources */,
+				ABAB493F2A16794A003A881D /* twoDMagnet.swift in Sources */,
+				ABAB492F2A1678DE003A881D /* Energy.swift in Sources */,
+				ABAB492B2A1678C5003A881D /* Plot Data.swift in Sources */,
+				ABAB49372A167919003A881D /* Density of States.swift in Sources */,
+				ABAB49332A167904003A881D /* Spins.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB491D2A1677EE003A881D /* Wang_LandauUITestsLaunchTests.swift in Sources */,
+				ABAB49342A167904003A881D /* Spins.swift in Sources */,
+				ABAB493C2A167930003A881D /* Spin Struct.swift in Sources */,
+				ABAB49302A1678DE003A881D /* Energy.swift in Sources */,
+				ABAB49382A167919003A881D /* Density of States.swift in Sources */,
+				ABAB49402A16794A003A881D /* twoDMagnet.swift in Sources */,
+				ABAB492C2A1678C5003A881D /* Plot Data.swift in Sources */,
 				ABAB491B2A1677EE003A881D /* Wang_LandauUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
